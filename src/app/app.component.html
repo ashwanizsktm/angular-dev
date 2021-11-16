@@ -1,4 +1,2 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h2>parent receiving data from child:({{ message }})</h2>
+<app-child (childMsg)="receiveData($event)"></app-child>
