@@ -19,10 +19,11 @@ export class AppComponent implements OnInit {
   }
 
   gettingData() {
-    const theData = ['item 1', 'item 2', 'item 3', 'item 4'];
+    const theData = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
     this.allData = theData;
-    console.log((this.allData.length = 4));
-    this.itemLength = this.allData.length ? false : true;
-    if (this.itemLength) alert('there is no data available!');
+
+    // console.log((this.allData.length = 4));
+    // this.itemLength = this.allData.length ? false : true;
+    // if (this.itemLength) alert('there is no data available!');
   }
 }
